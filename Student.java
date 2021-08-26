@@ -10,6 +10,7 @@ public class Student extends StudentScoreCard  {
     final static String[] Subjects = new String[]{"MATH","PHYSICS","CHEMISTRY","ENGLISH","HINDI"};
 
     public Student() {
+        super();
     }
 
     public Student(String name, String className, long regNo) {
